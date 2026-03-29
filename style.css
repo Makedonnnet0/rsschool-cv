@@ -1,0 +1,41 @@
+header,
+main,
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  height: auto;
+  width: 30%;
+}
+
+header nav ul {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.AvaFoto {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 9px -4px 45px 9px rgba(0, 0, 0, 0.25);
+}
+.Tit {
+  display: flex;
+  justify-content: space-between;
+}
